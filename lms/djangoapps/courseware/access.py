@@ -14,7 +14,7 @@ import logging
 from datetime import datetime
 
 from django.conf import settings
-from django.contrib.auth.models import AnonymousUser
+from django.contrib.auth.models import AnonymousUser, User
 from pytz import UTC
 from opaque_keys.edx.keys import CourseKey, UsageKey
 from six import text_type
